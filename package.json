@@ -1,0 +1,30 @@
+{
+  "name": "nodepractica1",
+  "version": "1.0.0",
+  "description": "practica 1 de node js",
+  "keywords": [
+    "Nodejs"
+  ],
+  "homepage": "https://github.com/SARA02MASSIEL/NodePractica1#readme",
+  "bugs": {
+    "url": "https://github.com/SARA02MASSIEL/NodePractica1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SARA02MASSIEL/NodePractica1.git"
+  },
+  "license": "MIT",
+  "author": "Sara Segura",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/app.js",
+    "start": "node ./src/app.js"
+  },
+  "dependencies": {
+    "ejs": "^4.0.1",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
